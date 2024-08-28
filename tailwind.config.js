@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'background': "url('/src/assets/download.png')",
+      },
+      colors:{
+        'yellow-orange': '#FEB43C',
+      }
+    },
   },
   plugins: [],
 }
