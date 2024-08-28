@@ -8,11 +8,14 @@ export default {
     extend: {
       backgroundImage:{
         'background': "url('/src/assets/download.png')",
+        'oppen': "url('/public/oppen.jpg')",
       },
       colors:{
         'yellow-orange': '#FEB43C',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

@@ -1,13 +1,25 @@
-import { useState } from 'react'
-import Header from './Components/Header'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Pages/Home'
+import Events from './Components/Pages/Events'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />
+  },
+
+  {
+    path: '/events',
+    element: <Events />
+  }
+]);
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Home /> 
-    </>
+    <div>
+    <RouterProvider router={router} />
+    </div>
   )
 }
 
