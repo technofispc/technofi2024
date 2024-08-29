@@ -14,6 +14,8 @@ export default {
         "broch2022": "url('/src/assets/BrochureIMG/T2022.jpg')",
         'background': "url('/src/assets/download.png')",
         'oppen': "url('/public/oppen.jpg')",
+        'radial-gradient': 'radial-gradient(circle, #010103, #02070d)',
+
       },
       colors:{
         'yellow-orange': '#FEB43C',

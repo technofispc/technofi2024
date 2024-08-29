@@ -14,11 +14,11 @@ const FAQs = [
 function Hero(){
   return(
     <div className='flex w-full flex-col items-start bg-transparent h-fit mt-10'>
-    <div className='flex w-full px-36 flex-col items-center h-fit'>
-    {/* <video src='./src/assets/hero.mp4' loop autoPlay muted className='w-5/6 h-auto text-white'>
+    <div className='flex w-full px-36 flex-col items-center justify-center h-[600px]'>
+    {/* <video src='./src/assets/hero2.mp4' loop autoPlay muted className='w-4/6 h-auto text-white'>
           Your browser does not support the video tag.
         </video> */}
-      <img src='./public/technofi.jpg' alt='logo' className='w-full h-auto'/>
+        <img src='./src/assets/hero.png' alt='logo' className=''/>
     </div>
     </div>
   )
@@ -122,8 +122,8 @@ next big idea.
 function News(){
   return(
       <div className='flex justify-center items-end'>
-        <div className='w-72 h-[420px] bg-[#adad8e] rounded-3xl shadow-2xl flex flex-col items-center'>
-          <img src='./public/download.jpg' alt='logo' className='h-52 rounded-t-3xl top-0'/>
+        <div className='w-72 h-[420px] bg-[#f3ae09] rounded-3xl shadow-2xl flex flex-col items-center'>
+          <img src='./public/oppen.jpg' alt='logo' className='h-52 rounded-t-3xl top-0'/>
           <div className='py-5 px-5 flex flex-col w-full h-[212px]'>
             <div className='font-bold text-xl whitespace-nowrap'>Brochure Release</div>
             <div className=''>
@@ -148,6 +148,40 @@ function NewsSet(){
       <News/>
       <News/>
     </div>
+    </div>
+  )
+}
+
+function Patrons(){
+  return(
+    <div className='mt-20'>
+      <div className='text-center font-[Inter] text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
+          backgroundImage: 'linear-gradient(121deg, #FBB144 0%, #DFC9A7 100%)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        }}>
+          Our Patrons
+        </div>
+        <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/11.jpg" alt="Patron" className="max-w-80"/>
+          </div>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/12.jpg" alt="Patron" className="max-w-80"/>
+          </div>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/13.jpg" alt="Patron" className="max-w-80"/>
+          </div>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/14.jpg" alt="Patron" className="max-w-40"/>
+          </div>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/15.jpg" alt="Patron" className="max-w-80"/>
+          </div>
+          <div className='flex justify-center items-center w-full'>
+            <img src="./src/assets/Patrons/16.jpg" alt="Patron" className="max-w-80"/>
+          </div>
+        </div>
     </div>
   )
 }
@@ -232,6 +266,7 @@ export default function Home() {
       <Hero />
       <About />
       <NewsSet />
+      <Patrons />
       <div className='flex justify-center items-center'>
       <FAQSec />
       </div>

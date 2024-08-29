@@ -2,10 +2,21 @@ import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 
-const headCoverStyles = 'flex h-[60px] px-4 pt-5 pb-3 flex-col self-stretch'
-const headTextStyles = 'text-white font-dlig-on font-[Lexend] text-[22px] not-italic font-bold leading-7'
-const paraHeaderStyles = 'flex px-4 pt-1 pb-3 flex-col self-stretch item-stretch' 
-const paraTextStyles = 'text-white text-[16px] font-dlig-on font-[Lexend] leading-6 font-normal'
+const LeadersName = {
+    2014:["Kartik Chhabra", "Benjamin Clarance", "Sehaj Gulati", "Ayushmaan Khemariya", "Anshuman Gilani", "Shrey Khetrapal", "Samridh Mahajan", "Namit Batra", "Yash Khandelwal", "Akhil Gupta"],
+
+    2015 : ["Anmol Gupta", "Atishay Jain", "Anshul Saxena"," Ninaad Milton", "Tarun Kumar", "Chirag Garg", "Manan Agarwal", "Pranjal Gupta", "Apoorva Sharma", "Saksham Agarwal", "Samayak Kuheley", "Yash Jain", "Ayush Singh", "Parth Batra"],
+
+    2016 : ['Shreyans Jain','Anmol Sehgal',  'Pranav Ashra', 'Ayush Grover', 'Shivang Sharma', 'Shrey Agarwal', 'Sagar Khandelwal'],
+
+    2017 : ['Suryansh Gupta', 'Mohd. Anas Ali', 'Harshit Patel', 'Simar Singh Gulati', 'Prabudh Sharma', 'Manvendra Rana', 'Anish Garg', 'Saksham Jain', 'Pratik Dhanwani', 'Abhishek Sharma', 'Pranay Sharma', 'Adarsh Arora', 'Tanmay Jain', 'Varun Singh', 'Darpan Dixit', 'Shantanu Sarawat', 'Shashwat Sharma', 'Siddhartha', 'Aryan Verma', 'Aryaman Verma', 'Aditya Tiwari', 'Nehit Benara', 'Yash Agarwal', 'Varun Kashyap', 'Nidhip Taneja', 'Anant Singh', 'Jeevansh Mehrotra', 'Piyush Garg', 'Pranjul Goyal', 'Akshay Jain', 'Yash Vardhan', 'Apoorva Mehra', 'Rohan Sharma', 'Garvit Kumar', 'Praveg Vashishtha', 'Kushagra Singh', 'Aseem Agarwal', 'Garvit Mahajan', 'Harsh Upadhyaya', 'Pavitra Mohnani', 'Krishna Pareek', 'Lakshay', 'Sahil Jain', 'Shivam Tiwari'],
+
+    2018: ['Manvendra Rana', 'Shivam Tiwari', 'Taran Chawla', 'Hrishabh Mishra', 'Lakshay Bharadwaj', 'Ammar Khaleeque', 'Divyansh Upadhyaya', 'Atishay Goyal', 'Parth Johri', 'Sanskar Sarawat', 'Nakul Gupta', 'Aman Zaidi', 'Neelohit Dutta', 'Kartikay Singhal', 'Sanchit Singhal', 'Skund Srivastava', 'Akshat Jain', 'Nakul Singh', 'Aryan Chandel', 'Harshit Taneja', 'Parv Jain', 'Shobit Verma', 'Abhishek Yadav', 'Vatsal Agarwal', 'Shrey Sabarwal', 'Anush Mangal', 'Prem Jadhwani', 'Anish Garg', 'Saksham Jain', 'Saiyam Sawhney', 'Gaurav Singh', 'Saarim Khan', 'Subhan Shamsi', 'Raunaq Arora', 'Huzaif Hussain', 'Anvit Mathur', 'Yash Tikkha', 'Manas Kumar', 'Aryan Singh', 'Chintan Jain', 'Utkarsh Chaudhary'],
+
+    2019: ['Mohd. Huzaifa', 'Anmol Khandelwal', 'Shubham Singh', 'Kartikey Dutt Gautam', 'Aviral Srivastava', 'Manu Sharma', 'Prakhar Singh', 'Uttkarsh Chaudhary', 'Aayam Chaturvedi', 'Rishabh Rochlani', 'Shaswat Sharma', 'Anush Mangal', 'Shritik Raj', 'Akshat Garg', 'Suryansh Joshi', 'Jai Mehrotra', 'Arjav Jain', 'Gaurang Sharma', 'Aksh Jain', 'Ashutosh Sharma', 'Kartikey Johri', 'Naman Jain', 'Sumit Guwalani', 'Nimit Agarwal', 'Gaurav Mohnani', 'Dhruv Malhotra', 'Pradyumn Mittal', 'Sanskar Kapoor', 'Kushagra Bharadwaj', 'Akshat Mishra', 'Prem Jadwani', 'Ambuj Jain', 'Govind Arora', 'Brahmansh Dhawan'],
+
+    2022: ['Akarsh Agarwal', 'Dhruv Dev', 'Anany Doneria', 'Vansh Tiwari', 'Aditya Agarwal', 'Aryaman Agarwal', 'Shivam Verma', 'Sanidhya Sharma', 'Bhavya Tandon', 'Divyansh Sharma', 'Saumya Khubchandani', 'Rudransh Jain', 'Vishal Parashar', 'Devansh Jain', 'Aakarsh Agarwal']
+}
 
 function Hero(){
     return(
@@ -55,37 +66,78 @@ function Brochures(){
 
 function Leaders(){
     return(
-        <div>
-        <div className='h-52 w- border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden pt-4'>
+        <div className=''>
+            <div className='h-fit xl:h-full border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
             <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
-                <div className='h-fit w-fit text-2xl font-semibold'>2016</div>
-                <div className='flex-1'></div>
+                <div className='h-fit w-fit text-2xl font-bold'>2014</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2014].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
             </div>
         </div>
-        <div className='h-52 w- border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden pt-4'>
+            <div className='h-fit xl:h-full border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
             <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
-                <div className='h-fit w-fit text-2xl font-semibold'>2017</div>
-                <div className='flex-1'></div>
+                <div className='h-fit w-fit text-2xl font-bold'>2015</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2015].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
             </div>
         </div>
-        <div className='h-52 w- border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden pt-4'>
+        <div className='h-fit xl:h-full border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
             <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
-                <div className='h-fit w-fit text-2xl font-semibold'>2018</div>
-                <div className='flex-1'></div>
+                <div className='h-fit w-fit text-2xl font-bold'>2016</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2016].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
             </div>
         </div>
-        <div className='h-52 w- border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden pt-4'>
+        <div className='h-fit border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
             <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
-                <div className='h-fit w-fit text-2xl font-semibold'>2019</div>
-                <div className='flex-1'></div>
+                <div className='h-fit w-fit text-2xl font-bold'>2017</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2017].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
             </div>
         </div>
-        <div className='h-52 w- border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden pt-4'>
+        <div className='h-fit border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
             <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
-                <div className='h-fit w-fit text-2xl font-semibold'>2022</div>
-                <div className='flex-1'></div>
+                <div className='h-fit w-fit text-2xl font-bold'>2018</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2018].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
             </div>
         </div>
+        <div className='h-fit border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
+            <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
+                <div className='h-fit w-fit text-2xl font-bold'>2019</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2019].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
+            </div>
+        </div>
+        <div className='h-fit border m-10 rounded-2xl border-yellow-orange flex flex-row pt-4'>
+            <div className='flex flex-col justify-center items-center text-yellow-600 h-full w-full'>
+                <div className='h-fit w-fit text-2xl font-bold'>2022</div>
+                <div className='flex-1 flex m-4 gap-10 flex-wrap justify-center items-center'>
+                    {LeadersName[2022].map((name) => (
+                        <div className='text-white font-bold text-2xl text-center'>{name}</div>
+                    ))}
+                </div>
+            </div>
+        </div>
+        
         </div>
     )
 }

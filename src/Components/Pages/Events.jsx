@@ -21,7 +21,7 @@ function Event(){
     return(
         <>
         <div className='h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden'>
-            <img src="./public/download.jpg" alt="" className='h-full'/>
+            <img src="./public/oppen.jpg" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
                 <div className='h-full flex justify-center flex-col'>
                     <div className='text-yellow-orange text-2xl font-bold'>Bytes of Brilliance</div>
@@ -37,7 +37,7 @@ function Event(){
             </div>
         </div>
         <div className='h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange flex flex-row-reverse overflow-hidden'>
-            <img src="./public/download.jpg" alt="" className='h-full'/>
+            <img src="./public/oppen.jpg" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
                 <div className='h-full flex justify-center flex-col'>
                     <div className='text-yellow-orange text-2xl font-bold'>Bytes of Brilliance</div>
@@ -53,7 +53,7 @@ function Event(){
             </div>
         </div>
         <div className='h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden'>
-            <img src="./public/download.jpg" alt="" className='h-full'/>
+            <img src="./public/oppen.jpg" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
                 <div className='h-full flex justify-center flex-col'>
                     <div className='text-yellow-orange text-2xl font-bold'>Bytes of Brilliance</div>
@@ -69,7 +69,7 @@ function Event(){
             </div>
         </div>
         <div className='h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange flex flex-row-reverse overflow-hidden'>
-            <img src="./public/download.jpg" alt="" className='h-full'/>
+            <img src="./public/oppen.jpg" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
                 <div className='h-full flex justify-center flex-col'>
                     <div className='text-yellow-orange text-2xl font-bold'>Bytes of Brilliance</div>
@@ -85,7 +85,7 @@ function Event(){
             </div>
         </div>
         <div className='h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange flex flex-row overflow-hidden'>
-            <img src="./public/download.jpg" alt="" className='h-full'/>
+            <img src="./public/oppen.jpg" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
                 <div className='h-full flex justify-center flex-col'>
                     <div className='text-yellow-orange text-2xl font-bold'>Bytes of Brilliance</div>
