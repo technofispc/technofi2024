@@ -34,7 +34,7 @@ export default function Header() {
                             </Link>
                         </div>
                         <div className='flex w-24 h-10 flex-col justify-center items-center border rounded bg-yellow-orange shadow-custom'>
-                            <a href="https://forms.gle/9eQv1F4ev9KbTGh68">
+                            <a href="https://forms.gle/9eQv1F4ev9KbTGh68" target='_blank'>
                             Register
                             </a>
                         </div>
