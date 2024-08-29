@@ -14,7 +14,7 @@ export default function Header() {
                     Technofi 2024
                 </div>
                 </div>
-                <div className='flex justify-center items-center gap-40 flex-1 ml-40'>
+                <div className='flex justify-center items-center gap-40 w-fit'>
                         <div className={linkStyle}>
                             HOME
                         </div>
@@ -23,9 +23,6 @@ export default function Header() {
                         </div>
                         <div className={linkStyle}>
                             EVENTS
-                        </div>
-                        <div className={linkStyle}>
-                            GALLERY
                         </div>
                         <div className='flex w-24 h-10 flex-col justify-center items-center border rounded bg-yellow-orange shadow-custom'>
                             Register

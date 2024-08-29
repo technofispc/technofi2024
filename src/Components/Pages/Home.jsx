@@ -15,9 +15,10 @@ function Hero(){
   return(
     <div className='flex w-full flex-col items-start bg-transparent h-fit mt-10'>
     <div className='flex w-full px-36 flex-col items-center h-fit'>
-    <video src='./src/assets/hero.mp4' loop autoPlay muted className='w-5/6 h-auto text-white'>
+    {/* <video src='./src/assets/hero.mp4' loop autoPlay muted className='w-5/6 h-auto text-white'>
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+      <img src='./public/technofi.jpg' alt='logo' className='w-full h-auto'/>
     </div>
     </div>
   )
