@@ -106,7 +106,7 @@ function Team(){
 
 export default function T2024() {
   return (
-    <div className='bg-background'>
+    <div className='bg-background overflow-hidden'>
       <Header />
       <Hero />
       <Coordinators />

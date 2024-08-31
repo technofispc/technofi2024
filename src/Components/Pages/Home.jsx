@@ -13,9 +13,9 @@ const FAQs = [
   
 function Hero(){
   return(
-    <div className='flex w-full flex-col items-start bg-transparent h-fit mt-10'>
-    <div className='flex w-full px-36 flex-col items-center justify-center h-[600px]'>
-    <video src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/hero.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2hlcm8ubXA0IiwiaWF0IjoxNzI1MDg5NzUyLCJleHAiOjE3NTY2MjU3NTJ9.DAbukshNLzmaDCaJu49F_RFXz253P7JVT_Vxja_w0Qg&t=2024-08-31T07%3A35%3A52.760Z' loop autoPlay muted className='w-full h-auto text-white'>
+    <div className='flex w-full flex-col items-start bg-transparent h-fit mt-20 md:mt-10 px-10'>
+    <div className='flex w-full flex-col items-center justify-center'>
+    <video src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/hero.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2hlcm8ubXA0IiwiaWF0IjoxNzI1MDg5NzUyLCJleHAiOjE3NTY2MjU3NTJ9.DAbukshNLzmaDCaJu49F_RFXz253P7JVT_Vxja_w0Qg&t=2024-08-31T07%3A35%3A52.760Z' loop autoPlay muted className='w-full h-auto'>
           Your browser does not support the video tag.
         </video>
     </div>
@@ -34,17 +34,16 @@ function About(){
         }}>
           ABOUT
         </div>
-        <div className='flex w-full justify-between items-start'>
-          <div className='flex flex-col items-start self-stretch w-1/3'>
+        <div className='flex w-full justify-between items-start h-fit'>
+          <div className='flex flex-col items-start self-stretch w-full lg:w-1/3 h-fit'>
             <div className='flex flex-col items-start gap-4 w-full h-fit'>
-              <div className='text-[#9ba1a8] text-xl font-semibold leading-7 tracking-[5px] uppercase w-full h-fit'>
+              <div className='lg:text-[#9ba1a8] text-xl font-semibold leading-7 tracking-[5px] uppercase w-full h-fit flex justify-center items-center lg:justify-start text-center lg:text-left text-yellow-orange'>
                 St. Peter's Techfest
               </div>
-              <div className='text-[#eff2f5] text-3xl font-bold leading-10 capitalize w-full h-fit'>
+              <div className='text-[#eff2f5] text-3xl font-bold leading-10 capitalize w-full h-fit flex justify-center items-center lg:justify-start'>
                 Technofi 2024
               </div>
-              <div className='flex pr-4 justify-center items-start self-stretch w-full gap-4'>
-                <div className='w-1 h-full border rounded-xl opacity-40 bg-[#feb43c]' />
+              <div className='flex pr-4 justify-center items-start self-stretch lg:w-full gap-4 w-fit text-center lg:text-left'>
                 <div className='child-1 text-base font-medium leading-6 tracking-[0.48px] text-white h-fit'>
                 Technofi, the conjugation of the finest
 technical minds of the country is the annual
@@ -55,7 +54,7 @@ of your mind.
                 </div>
               </div>
             </div>
-            <div className='flex pt-48 flex-col items-start self-stretch'>
+            <div className='flex lg:pt-48 flex-col items-start self-stretch h-0 lg:h-auto invisible lg:visible'>
               <div className='flex items-start self-stretch'>
                 <div className='flex items-start'>
                   <div className='flex flex-col justify-center items-start self-stretch w-fit pr-[10px]'>
@@ -84,10 +83,10 @@ next big idea.
               </div>
             </div>
           </div>
-          <div className='w-1/3'>
+          <div className='w-0 lg:w-1/3'>
             <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/robot.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL3JvYm90LnBuZyIsImlhdCI6MTcyNTA4OTgxMSwiZXhwIjoxNzU2NjI1ODExfQ.VKm0EPOas21OCVHr2IxqKgyX1mmQjc1mDqE4nQo8S2s&t=2024-08-31T07%3A36%3A52.146Z' alt='logo' className=''/>
           </div>
-          <div className='w-1/3'>
+          <div className='w-0 lg:w-1/3 invisible lg:visible h-0 lg:h-auto'>
           <div className='flex py-48 flex-col items-start self-stretch'>
               <div className='flex items-start self-stretch'>
                 <div className='flex items-start'>
@@ -128,24 +127,24 @@ function Patrons(){
         }}>
           Our Patrons
         </div>
-        <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 mt-10'>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/11.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTEuanBnIiwiaWF0IjoxNzI1MDg5OTQzLCJleHAiOjE3NTY2MjU5NDN9.S8aFwHTU68sYlK_LKciGXqrVOI68HgNqw36eNugRoiw&t=2024-08-31T07%3A39%3A03.652Z" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/11.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTEuanBnIiwiaWF0IjoxNzI1MDg5OTQzLCJleHAiOjE3NTY2MjU5NDN9.S8aFwHTU68sYlK_LKciGXqrVOI68HgNqw36eNugRoiw&t=2024-08-31T07%3A39%3A03.652Z" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/12.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTIuanBnIiwiaWF0IjoxNzI1MDg5OTU1LCJleHAiOjE3NTY2MjU5NTV9.tnFszx1iOWuAal8n_AVLwSCVWrbuYjvzo9sVB-yrZEA&t=2024-08-31T07%3A39%3A15.736Z" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/12.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTIuanBnIiwiaWF0IjoxNzI1MDg5OTU1LCJleHAiOjE3NTY2MjU5NTV9.tnFszx1iOWuAal8n_AVLwSCVWrbuYjvzo9sVB-yrZEA&t=2024-08-31T07%3A39%3A15.736Z" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/13.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTMuanBnIiwiaWF0IjoxNzI1MDg5OTY0LCJleHAiOjE3NTY2MjU5NjR9.i5fjZ_qhoe0x6kyjNC5wlZ-QdobXupYYEdEHreIaGnE&t=2024-08-31T07%3A39%3A25.281Z" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/13.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTMuanBnIiwiaWF0IjoxNzI1MDg5OTY0LCJleHAiOjE3NTY2MjU5NjR9.i5fjZ_qhoe0x6kyjNC5wlZ-QdobXupYYEdEHreIaGnE&t=2024-08-31T07%3A39%3A25.281Z" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
             <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/14.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTQuanBnIiwiaWF0IjoxNzI1MDg5OTc1LCJleHAiOjE3NTY2MjU5NzV9.V-jw0UOOMt-9nOEIo4-i9Oly49sAsDTraSFYmCKdFtY&t=2024-08-31T07%3A39%3A36.697Z" alt="Patron" className="max-w-40"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/15.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTUuanBnIiwiaWF0IjoxNzI1MDg5OTg0LCJleHAiOjE3NTY2MjU5ODR9.EYMed-2wWJJk-0a-A8wPj05--3TCbXEOJxDlp-82hUs&t=2024-08-31T07%3A39%3A44.786Z" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/15.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTUuanBnIiwiaWF0IjoxNzI1MDg5OTg0LCJleHAiOjE3NTY2MjU5ODR9.EYMed-2wWJJk-0a-A8wPj05--3TCbXEOJxDlp-82hUs&t=2024-08-31T07%3A39%3A44.786Z" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/16.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTYuanBnIiwiaWF0IjoxNzI1MDg5OTk0LCJleHAiOjE3NTY2MjU5OTR9.t1xaYfn9-YB-ge2f2RqjXxXlzpptq3-GQzWw1vJrrh0&t=2024-08-31T07%3A39%3A54.122Z" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/16.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTYuanBnIiwiaWF0IjoxNzI1MDg5OTk0LCJleHAiOjE3NTY2MjU5OTR9.t1xaYfn9-YB-ge2f2RqjXxXlzpptq3-GQzWw1vJrrh0&t=2024-08-31T07%3A39%3A54.122Z" alt="Patron" className="max-w-72"/>
           </div>
         </div>
     </div>
@@ -185,7 +184,7 @@ const Contact = () => {
   const navigate = useNavigate()
 
   return(
-    <section className='w-full px-40'>
+    <section className='min-[450px]:px-10 w-full sm:px-20 lg:px-40'>
             {/*Directions*/}
             <div class="flex items-center gap-4 px-4 min-h-[72px] py-2 justify-between">
               <div class="flex items-center gap-4">
@@ -230,7 +229,7 @@ const Contact = () => {
 
 export default function Home() {
   return (
-    <div className='bg-background'>
+    <div className='bg-background overflow-hidden'>
     <Header/>
       <Hero />
       <About />

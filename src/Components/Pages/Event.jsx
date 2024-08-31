@@ -101,7 +101,7 @@ function Event() {
   }
 
   return (
-    <div className='bg-background flex flex-col justify-center items-center'>
+    <div className='bg-background flex flex-col justify-center items-center overflow-hidden'>
         <Header />
         <Heading data = {data}/>
         <Body data = {data}/>

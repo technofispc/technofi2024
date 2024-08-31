@@ -161,7 +161,7 @@ function EventSet(){
 export default function Events() {
 
   return (
-    <div className='bg-[#0c0000]'>
+    <div className='bg-[#0c0000] overflow-hidden'>
         <Header/>
         <Hero/>
         <EventSet/>

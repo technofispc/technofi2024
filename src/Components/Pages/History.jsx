@@ -193,7 +193,7 @@ function PastLeaders(){
 
 export default function History() {
   return (
-    <div className='bg-[#0c0000]'>
+    <div className='bg-[#0c0000] overflow-hidden'>
         <Header/>
         <Hero/>
         <Brochures/>
