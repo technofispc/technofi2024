@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
+import { useNavigate } from 'react-router-dom'
 
 
 const FAQs = [
-  { question: "What are the dates of the event?", answer: "The event will be held from 1st to 3rd April 2024." },
-  { question: "How can I register for the event?", answer: "You can register for the event by visiting our website." },
-  { question: "Are there any registration fees?", answer: "No, the event is free for all." },
-  { question: "What are the prizes for the competitions?", answer: "The prizes for the competitions will be announced soon." },
+  { question: "What are the dates of the event?", answer: "The event will be held on 9th of September 2024" },
+  { question: "Who can register for the event?", answer: "The schools who have recieved invitation from St. Peter's College can register" },
+  { question: "Are there any registration fees?", answer: "No, the event is free." },
 ]
 
   
@@ -181,6 +181,9 @@ const FAQSec = () => {
 }
 
 const Contact = () => {
+
+  const navigate = useNavigate()
+
   return(
     <section className='w-full px-40'>
             {/*Directions*/}
@@ -197,9 +200,9 @@ const Contact = () => {
                 </div>
               </div>
               <div class="shrink-0">
-                <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#151515] text-white text-sm font-medium leading-normal w-fit hover:bg-button transform hover:scale-105 transition-transform duration-200 shadow-lg">
+                <a href="https://maps.app.goo.gl/1KjF8JgU2gjGfYzd7" target="_blank" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#151515] text-white text-sm font-medium leading-normal w-fit hover:bg-button transform hover:scale-105 transition-transform duration-200 shadow-lg">
                   <span class="truncate flex items-center">Get Directions</span>
-                </button>
+                </a>
               </div>
             </div>
             {/*Email*/}
@@ -216,9 +219,9 @@ const Contact = () => {
                 </div>
               </div>
               <div class="shrink-0">
-                <button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#151515] text-white text-sm font-medium leading-normal w-fit hover:bg-button transform hover:scale-105 transition-transform duration-200 shadow-lg">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=NZVHGBltPQtWQNCDrsHHdkMTMtTLfSQxqzVxpWFXHJfkbnlQHSMkDnFSSgKjfNmnsWnzbq" target='_blank' class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-8 px-4 bg-[#151515] text-white text-sm font-medium leading-normal w-fit hover:bg-button transform hover:scale-105 transition-transform duration-200 shadow-lg">
                   <span class="truncate flex items-center">Open Mail</span>
-                </button>
+                </a>
               </div>
             </div>
         </section>
