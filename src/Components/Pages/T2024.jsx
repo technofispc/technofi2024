@@ -10,7 +10,7 @@ const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", 
 function Hero(){
 
   const handleDownload = () => {
-    const pdfUrl = 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/2024/Technofi%202024.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiIyMDI0L1RlY2hub2ZpIDIwMjQucGRmIiwiaWF0IjoxNzI1MDkwMzU1LCJleHAiOjE3NTY2MjYzNTV9.ohJeF3h8IUc_tFRb55MukrgHUwtg1wJW788FxybizP0&t=2024-08-31T07%3A45%3A56.062Z'; // Replace with your PDF URL
+    const pdfUrl = 'technofi.live/brochure2024'; // Replace with your PDF URL
 
     // Create an anchor element to trigger the download
     const link = document.createElement('a');
@@ -26,7 +26,7 @@ function Hero(){
 
   const navigate = useNavigate()
   return(
-    <div className='w-full lg:h-[600px] mt-28 lg:mt-20 lg:flex justify-center'>
+    <div className='w-full lg:h-[600px] mt-28 lg:mt-40 lg:flex justify-center'>
       <div className='lg:w-1/2 flex justify-center items-center h-full'>
       <div className='bg-center bg-broch2024 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer w-2/3' style={{ aspectRatio: '724 / 1024'}}>
             </div>
@@ -47,7 +47,7 @@ function Hero(){
 function Coordinators(){
   return(
     <div className='mt-20'>
-      <div className='text-center font-[Inter] text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
+      <div className='text-center font-[Inter] text-3xl md:text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
           backgroundImage: 'linear-gradient(121deg, #FBB144 0%, #DFC9A7 100%)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
