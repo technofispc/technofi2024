@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const core = ["Harshit Agarwal", "Jatin Mohnani", "Krishna Goyal" ]
 
-const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vithal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Anish Khan", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
+const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vitthal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Avanindra Singh Rathore", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
 
 function Hero(){
 
@@ -71,7 +71,7 @@ function Coordinators(){
 function Quote(){
   return(
     <div className='text-center font-[Inter] text-5xl md:text-6xl lg:text-8xl font-semibold leading-normal tracking-[1.44px] h-fit text-white my-20'>
-      "I BELIEVE WE DID IT"
+      "I BELIEVE WE DID"
     </div>
   )
 }
