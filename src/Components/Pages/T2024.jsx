@@ -10,7 +10,7 @@ const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", 
 function Hero(){
 
   const handleDownload = () => {
-    const pdfUrl = 'technofi.live/brochure2024'; 
+    const pdfUrl = 'www.technofi.live/brochure2024.com'; 
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
