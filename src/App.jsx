@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: 'technofi2024',
+    path: '/technofi2024',
     element: <T2024 />
   }
 ]);
