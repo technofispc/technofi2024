@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const core = ["Harshit Agarwal", "Jatin Mohnani", "Krishna Goyal" ]
 
-const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vitthal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Avanindra Singh Rathore", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
+const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vitthal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Avanindra Singh", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
 
 function Hero(){
 
@@ -57,11 +57,11 @@ function Coordinators(){
         <div className='flex justify-center items-center mt-20 gap-5 sm:gap-20 lg:gap-40 px-10 lg:px-0'>
           <div className='w-fit flex flex-col justify-center items-center gap-5'>
           <img src= "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/2024/Coordinators/Mam.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiIyMDI0L0Nvb3JkaW5hdG9ycy9NYW0uanBnIiwiaWF0IjoxNzI1MDkwNDIwLCJleHAiOjE3NTY2MjY0MjB9.XIhNqr7m2Kmcq89ZxHT8og2gMGRaDF9NpNAZWNcqAWM&t=2024-08-31T07%3A47%3A00.436Z" alt="coordinator" className='rounded-3xl lg:w-[400px]'/>
-          <div className='text-white text-xl md:text-2xl lg:text-3xl text-center'>Sharlly P. Singh</div>
+          <div className='text-white text-lg md:text-2xl lg:text-3xl text-center'>Sharlly P. Singh</div>
           </div>
           <div className='w-fit flex flex-col justify-center items-center gap-5'>
           <img src= "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/2024/Coordinators/SIR.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiIyMDI0L0Nvb3JkaW5hdG9ycy9TSVIuanBnIiwiaWF0IjoxNzI1MDkwNDMyLCJleHAiOjE3NTY2MjY0MzJ9.6SCm5EMWIXhNoYcIVU457vU-b5KHIJkHpZirZRHprRU&t=2024-08-31T07%3A47%3A12.300Z" alt="coordinator" className='rounded-3xl lg:w-[400px]'/>
-          <div className='text-white text-xl md:text-2xl lg:text-3xl text-center'>Rakshit John</div>
+          <div className='text-white text-lg md:text-2xl lg:text-3xl text-center'>Rakshit John</div>
           </div>
         </div>
     </div>
