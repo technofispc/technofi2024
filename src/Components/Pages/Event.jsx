@@ -19,11 +19,11 @@ const eventDetails = {
 function Heading({data}) {
     return(
         <div className='mt-20 flex flex-col justify-center items-center'>
-            <div className='text-center font-[Inter] text-5xl font-semibold leading-normal tracking-[1.44px] h-fit text-yellow-orange'>
+            <div className='text-center font-[Inter] text-2xl sm:text-5xl font-semibold leading-normal tracking-[1.44px] h-fit text-yellow-orange mb-5'>
           EVENT
         </div>
-        <div className='w-80 bg-white h-[1px]'></div>
-        <div className='text-center font-[Inter] text-8xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
+        <div className='w-40 sm:w-80 bg-white h-[1px]'></div>
+        <div className='text-center font-[Inter] text-5xl sm:text-8xl font-semibold leading-normal tracking-[1.44px] h-fit mt-5' style={{
           backgroundImage: 'linear-gradient(121deg, #FBB144 0%, #DFC9A7 100%)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
@@ -41,7 +41,7 @@ function Body({data}) {
           {data.event.introduction}
         </p>
 
-        <div className='flex justify-around items-center text-lg mt-8 mb-8'>
+        <div className='flex flex-wrap justify-around items-center text-lg mt-8 mb-8 gap-10'>
         <div className='text-center'>
           <strong>Participants per Team:</strong>
           <p>{data.event.participants_per_event} participants</p>
@@ -63,7 +63,7 @@ function Body({data}) {
           ))}
         </ol>
 
-        <div className='w-full p-8 mt-10'>
+        <div className='w-full sm:p-8 mt-10'>
         <h3 className='text-3xl font-semibold text-yellow-orange mb-6 text-center'>Support and Contact</h3>
         <div className='flex flex-col md:flex-row justify-around items-center'>
           <div className='text-center mb-6 md:mb-0'>
@@ -101,10 +101,12 @@ function Event() {
   }
 
   return (
-    <div className='bg-background flex flex-col justify-center items-center overflow-hidden'>
+    <div className='bg-background overflow-hidden'>
         <Header />
+        <div className='flex flex-col justify-center items-center'>
         <Heading data = {data}/>
         <Body data = {data}/>
+        </div>
         <Footer />
     </div>
   )
