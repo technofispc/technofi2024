@@ -11,13 +11,18 @@ export default function Header() {
             <div className='flex justify-between items-center w-full h-fit'>
                 <Link to='/'>
                 <div className='flex items-center w-fit'>
-                <img src='./src/assets/logo.svg' alt='logo' className='h-4 flex-1 items-center pr-2' />
-                <div className='flex flex-col items-center justify-center text-center font-bold text-lg text-white w-[120px] whitespace-nowrap'>
-                    Technofi 2024
+                <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2xvZ28uc3ZnIiwiaWF0IjoxNzI1MDg5NjQxLCJleHAiOjE3NTY2MjU2NDF9.iR-jY5FbbksQpPcueGaxrMVfkM7lF5dSNT_1JBQ-vjM&t=2024-08-31T07%3A34%3A01.154Z' alt='logo' className='h-4 flex-1 items-center pr-2' />
+                <div className='flex flex-col items-center justify-center text-center font-bold text-lg text-white w-fit whitespace-nowrap'>
+                    Technofi
                 </div>
                 </div>
                 </Link>
                 <div className='flex justify-center items-center gap-40 w-fit'>
+                        <div className={linkStyle}>
+                            <Link to='/technofi2024'>
+                            TECHNOFI 2024
+                            </Link>
+                        </div>
                         <div className={linkStyle}>
                             <Link to='/'>
                             HOME

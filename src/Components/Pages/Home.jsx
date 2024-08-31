@@ -15,10 +15,9 @@ function Hero(){
   return(
     <div className='flex w-full flex-col items-start bg-transparent h-fit mt-10'>
     <div className='flex w-full px-36 flex-col items-center justify-center h-[600px]'>
-    {/* <video src='./src/assets/hero2.mp4' loop autoPlay muted className='w-4/6 h-auto text-white'>
+    <video src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/hero.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2hlcm8ubXA0IiwiaWF0IjoxNzI1MDg5NzUyLCJleHAiOjE3NTY2MjU3NTJ9.DAbukshNLzmaDCaJu49F_RFXz253P7JVT_Vxja_w0Qg&t=2024-08-31T07%3A35%3A52.760Z' loop autoPlay muted className='w-full h-auto text-white'>
           Your browser does not support the video tag.
-        </video> */}
-        <img src='./src/assets/hero.png' alt='logo' className=''/>
+        </video>
     </div>
     </div>
   )
@@ -61,7 +60,7 @@ of your mind.
                 <div className='flex items-start'>
                   <div className='flex flex-col justify-center items-start self-stretch w-fit pr-[10px]'>
                     <div className='flex h-full items-start w-[21px]'>
-                      <img src='./public/arrow.png' alt='logo' className='w-[21px] h-[28px]' />
+                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTcyNTA4OTg3MiwiZXhwIjoxNzU2NjI1ODcyfQ.6HGqElMkd_GK-KzOsasslUc1XYUG1xRjiJK8VXMP91c&t=2024-08-31T07%3A37%3A52.586Z' alt='logo' className='w-[21px] h-[28px]' />
                     </div>
                   </div>
                   <div className='flex flex-col items-start self-stretch'>
@@ -86,7 +85,7 @@ next big idea.
             </div>
           </div>
           <div className='w-1/3'>
-            <img src='./public/robot.png' alt='logo' className=''/>
+            <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/robot.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL3JvYm90LnBuZyIsImlhdCI6MTcyNTA4OTgxMSwiZXhwIjoxNzU2NjI1ODExfQ.VKm0EPOas21OCVHr2IxqKgyX1mmQjc1mDqE4nQo8S2s&t=2024-08-31T07%3A36%3A52.146Z' alt='logo' className=''/>
           </div>
           <div className='w-1/3'>
           <div className='flex py-48 flex-col items-start self-stretch'>
@@ -94,7 +93,7 @@ next big idea.
                 <div className='flex items-start'>
                   <div className='flex flex-col justify-center items-start self-stretch w-fit pr-[10px]'>
                     <div className='flex h-full items-start w-[21px]'>
-                      <img src='./public/arrow.png' alt='logo' className='w-[21px] h-[28px]' />
+                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTcyNTA4OTg3MiwiZXhwIjoxNzU2NjI1ODcyfQ.6HGqElMkd_GK-KzOsasslUc1XYUG1xRjiJK8VXMP91c&t=2024-08-31T07%3A37%3A52.586Z' alt='logo' className='w-[21px] h-[28px]' />
                     </div>
                   </div>
                   <div className='flex flex-col items-start self-stretch'>
@@ -119,39 +118,6 @@ next big idea.
   )
 }
 
-function News(){
-  return(
-      <div className='flex justify-center items-end'>
-        <div className='w-72 h-[420px] bg-[#f3ae09] rounded-3xl shadow-2xl flex flex-col items-center'>
-          <img src='./public/oppen.jpg' alt='logo' className='h-52 rounded-t-3xl top-0'/>
-          <div className='py-5 px-5 flex flex-col w-full h-[212px]'>
-            <div className='font-bold text-xl whitespace-nowrap'>Brochure Release</div>
-            <div className=''>
-              The brochure was released on 1st March 2024. It contains all the details about the events and competitions.
-            </div>
-            <div className='flex justify-between items-end h-full'>
-              <div className='font-light text-base'>28 August 2024</div>
-              <div className='text-blue-800 font-bold'>Read More→</div>
-            </div>
-          </div>
-        </div>
-      </div>
-  )
-}
-
-function NewsSet(){
-  return(
-    <div className='flex justify-center items-center px-24 w-full'>
-    <div className='grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 mt-5 p-4 w-full'>
-      <News/>
-      <News/>
-      <News/>
-      <News/>
-    </div>
-    </div>
-  )
-}
-
 function Patrons(){
   return(
     <div className='mt-20'>
@@ -164,22 +130,22 @@ function Patrons(){
         </div>
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/11.jpg" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/11.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTEuanBnIiwiaWF0IjoxNzI1MDg5OTQzLCJleHAiOjE3NTY2MjU5NDN9.S8aFwHTU68sYlK_LKciGXqrVOI68HgNqw36eNugRoiw&t=2024-08-31T07%3A39%3A03.652Z" alt="Patron" className="max-w-80"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/12.jpg" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/12.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTIuanBnIiwiaWF0IjoxNzI1MDg5OTU1LCJleHAiOjE3NTY2MjU5NTV9.tnFszx1iOWuAal8n_AVLwSCVWrbuYjvzo9sVB-yrZEA&t=2024-08-31T07%3A39%3A15.736Z" alt="Patron" className="max-w-80"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/13.jpg" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/13.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTMuanBnIiwiaWF0IjoxNzI1MDg5OTY0LCJleHAiOjE3NTY2MjU5NjR9.i5fjZ_qhoe0x6kyjNC5wlZ-QdobXupYYEdEHreIaGnE&t=2024-08-31T07%3A39%3A25.281Z" alt="Patron" className="max-w-80"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/14.jpg" alt="Patron" className="max-w-40"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/14.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTQuanBnIiwiaWF0IjoxNzI1MDg5OTc1LCJleHAiOjE3NTY2MjU5NzV9.V-jw0UOOMt-9nOEIo4-i9Oly49sAsDTraSFYmCKdFtY&t=2024-08-31T07%3A39%3A36.697Z" alt="Patron" className="max-w-40"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/15.jpg" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/15.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTUuanBnIiwiaWF0IjoxNzI1MDg5OTg0LCJleHAiOjE3NTY2MjU5ODR9.EYMed-2wWJJk-0a-A8wPj05--3TCbXEOJxDlp-82hUs&t=2024-08-31T07%3A39%3A44.786Z" alt="Patron" className="max-w-80"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="./src/assets/Patrons/16.jpg" alt="Patron" className="max-w-80"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/16.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTYuanBnIiwiaWF0IjoxNzI1MDg5OTk0LCJleHAiOjE3NTY2MjU5OTR9.t1xaYfn9-YB-ge2f2RqjXxXlzpptq3-GQzWw1vJrrh0&t=2024-08-31T07%3A39%3A54.122Z" alt="Patron" className="max-w-80"/>
           </div>
         </div>
     </div>
@@ -265,7 +231,6 @@ export default function Home() {
     <Header/>
       <Hero />
       <About />
-      <NewsSet />
       <Patrons />
       <div className='flex justify-center items-center'>
       <FAQSec />

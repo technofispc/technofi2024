@@ -2,6 +2,16 @@ import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 
+const links = {
+    2014: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2014.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxNC5wZGYiLCJpYXQiOjE3MjUwOTE4MjksImV4cCI6MTc1NjYyNzgyOX0.761grbh0BcfkAtWeGsm_FfRNUDswIBtxMUOYqRDGEj0&t=2024-08-31T08%3A10%3A29.911Z',
+    2015: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2015.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxNS5wZGYiLCJpYXQiOjE3MjUwOTE4NDMsImV4cCI6MTc1NjYyNzg0M30.ABDQF_p0jkXgY9Uxz0JbkZTca8Tep-_YWpsJ9QaqwAI&t=2024-08-31T08%3A10%3A43.848Z',
+    2016: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2016.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxNi5wZGYiLCJpYXQiOjE3MjUwOTE4NTIsImV4cCI6MTc1NjYyNzg1Mn0.SpLzxns297UdmXbbNkARsfoBQtTWz_hsWuGY-TZjRaY&t=2024-08-31T08%3A10%3A53.002Z',
+    2017: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2017.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxNy5wZGYiLCJpYXQiOjE3MjUwOTE4NzMsImV4cCI6MTc1NjYyNzg3M30.IuNViTxUzx95BlkCyhotdgIrX2P6UsKXyRMwBnotGZk&t=2024-08-31T08%3A11%3A14.168Z',
+    2018: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2018.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxOC5wZGYiLCJpYXQiOjE3MjUwOTE4ODIsImV4cCI6MTc1NjYyNzg4Mn0.c2wMj7F1DnYbcXEAkLxmGocywUWyt6bqjCQOmS1cIgg&t=2024-08-31T08%3A11%3A22.995Z',
+    2019: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2019.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAxOS5wZGYiLCJpYXQiOjE3MjUwOTE4OTUsImV4cCI6MTc1NjYyNzg5NX0.TpiyVwWgwPtQEGlZqEdUQfKbOQNCp4PklX2VRyZYtuc&t=2024-08-31T08%3A11%3A35.911Z',
+    2022: 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/History/Brochures/T2022.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIaXN0b3J5L0Jyb2NodXJlcy9UMjAyMi5wZGYiLCJpYXQiOjE3MjUwOTE5MDksImV4cCI6MTc1NjYyNzkwOX0.4XI0_BjgI6SuoJKF59mjgXxPF-p_1hAoWWUfpUvSA94&t=2024-08-31T08%3A11%3A50.374Z'
+}
+
 const LeadersName = {
     2014:["Kartik Chhabra", "Benjamin Clarance", "Sehaj Gulati", "Ayushmaan Khemariya", "Anshuman Gilani", "Shrey Khetrapal", "Samridh Mahajan", "Namit Batra", "Yash Khandelwal", "Akhil Gupta"],
 
@@ -20,7 +30,7 @@ const LeadersName = {
 
 function Hero(){
     return(
-        <div className='w-full bg-oppen aspect-w-16 aspect-h-9 bg-cover'>
+        <div className='w-full bg-clock aspect-w-16 aspect-h-9 bg-cover'>
             <div className='h-full flex flex-col justify-center items-center'>
             <div className='h-fit text-white text-3xl uppercase font-medium tracking-wider'>
                 Welcome to Technofi 2024
@@ -34,6 +44,21 @@ function Hero(){
 }
 
 function Brochures(){
+
+    const handleDownload = (pdfUrl) => {
+        const link = document.createElement('a');
+        link.href = pdfUrl;
+        link.target = '_blank'; // Open in a new tab
+        link.download = pdfUrl.split('/').pop(); // Use the file name from the URL
+    
+        // Append to the body and click to trigger the download
+        document.body.appendChild(link);
+        link.click();
+    
+        // Clean up by removing the link after triggering the download
+        document.body.removeChild(link);
+      };
+
     return (
         <section className='w-full'>
                 <div className='text-center font-[Inter] text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
@@ -43,20 +68,28 @@ function Brochures(){
         }}>
           Over the years
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-10 mt-5 p-4'>
-            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2016 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}}>
+        <div className='flex w-full justify-center items-center gap-10 h-80 mt-20'>
+        <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2014 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer h-full' style={{ aspectRatio: '1260 / 860'}} onClick={() => handleDownload(links[2014])}>
+                <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2014</p>
+            </div>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2015 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer h-full' style={{ aspectRatio: '1260 / 860'}} onClick={() => handleDownload(links[2015])}>
+                <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2015</p>
+            </div>
+        </div>
+        <div className='grid gap-10 mt-5 p-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2016 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2016])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2016</p>
             </div>
-            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2017 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}}>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2017 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2017])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2017</p>
             </div>
-            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2018 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}}>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2018 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2018])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2018</p>
             </div>
-            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2019 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}}>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2019 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2019])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2019</p>
             </div>
-            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2022 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}}>
+            <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2022 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2022])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2022</p>
             </div>
         </div>
