@@ -30,12 +30,12 @@ const LeadersName = {
 
 function Hero(){
     return(
-        <div className='w-full bg-clock aspect-w-16 aspect-h-9 bg-cover'>
+        <div className='w-full bg-clock aspect-w-16 aspect-h-9 bg-cover mt-20 lg:mt-0'>
             <div className='h-full flex flex-col justify-center items-center'>
-            <div className='h-fit text-white text-3xl uppercase font-medium tracking-wider'>
+            <div className='h-fit text-white text-base min-[490px]:text-lg md:text-xl lg:text-3xl uppercase font-medium tracking-wider'>
                 Welcome to Technofi 2024
             </div>
-            <div className='text-center font-[Inter] text-[150px] font-semibold leading-normal tracking-[1.44px] h-fit text-yellow-orange'>
+            <div className='text-center font-[Inter] text-3xl min-[350px]:text-5xl min-[490px]:text-8xl md:text-[120px] xl:text-[150px] font-semibold leading-normal tracking-[1.44px] h-fit text-yellow-orange'>
                 HISTORY
             </div>
             </div>
@@ -60,23 +60,23 @@ function Brochures(){
       };
 
     return (
-        <section className='w-full'>
-                <div className='text-center font-[Inter] text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
+        <section className='w-full mt-20'>
+                <div className='text-center font-[Inter] text-4xl sm:text-5xl font-semibold leading-normal tracking-[1.44px] h-fit' style={{
           backgroundImage: 'linear-gradient(121deg, #FBB144 0%, #DFC9A7 100%)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
         }}>
           Over the years
         </div>
-        <div className='flex w-full justify-center items-center gap-10 h-80 mt-20'>
-        <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2014 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer h-full' style={{ aspectRatio: '1260 / 860'}} onClick={() => handleDownload(links[2014])}>
+        <div className='sm:flex w-full justify-center items-center gap-10  h-fit sm:h-48 lg:h-60 xl:h-80 mt-5 px-14 sm:p-0'>
+        <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2014 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer h-full mb-10 sm:mb-0' style={{ aspectRatio: '1260 / 860'}} onClick={() => handleDownload(links[2014])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2014</p>
             </div>
             <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2015 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer h-full' style={{ aspectRatio: '1260 / 860'}} onClick={() => handleDownload(links[2015])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2015</p>
             </div>
         </div>
-        <div className='grid gap-10 mt-5 p-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+        <div className='grid gap-10 mt-5 p-4 py-0 sm:py-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 px-20'>
             <div className='bg-center flex flex-col rounded-xl justify-end p-4 bg-broch2016 bg-contain bg-no-repeat transform hover:scale-105 transition-transform duration-200 cursor-pointer' style={{ aspectRatio: '724 / 1024'}} onClick={() => handleDownload(links[2016])}>
                 <p className="text-white text-2xl font-bold leading-tight w-4/5 line-clamp-2 flex items-end">Technofi 2016</p>
             </div>
