@@ -10,7 +10,7 @@ const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", 
 function Hero(){
 
   const handleDownload = () => {
-    const pdfUrl = 'www.technofi.live/brochure2024.com'; 
+    const pdfUrl = 'https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/2024/Technofi%202024.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiIyMDI0L1RlY2hub2ZpIDIwMjQucGRmIiwiaWF0IjoxNzI1MTI1ODI1LCJleHAiOjE3NTY2NjE4MjV9.xb0ksYHlZOT8VbTerD6OCR0evy7b9AGTAkpoYcS_09Q&t=2024-08-31T17%3A37%3A06.548Z'; 
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.target = '_blank';
