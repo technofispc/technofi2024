@@ -81,12 +81,12 @@ export default function Header() {
                             </a>
                         </div>
                 </div>
-                <img src="./src/assets/menu.svg" className='absolute right-10 sm:right-20 visible xl:invisible' onClick={handleClick} />
+                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/menu.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL21lbnUuc3ZnIiwiaWF0IjoxNzI1MTE3MTY3LCJleHAiOjE3NTY2NTMxNjd9.pNY4x7Bco2nM5_i9vOw2sgcRkUH08-x3vYHtOzTkaQY&t=2024-08-31T15%3A12%3A46.802Z" className='absolute right-10 sm:right-20 visible xl:invisible' onClick={handleClick} />
             </div>
     </div>
     <div className={sideBarStyle}>
         <div className='flex flex-col w-full pt-20 gap-20 h-full'>
-                <img src="./src/assets/close.svg" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
+                <img src=".https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/close.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Nsb3NlLnN2ZyIsImlhdCI6MTcyNTExNzE0NCwiZXhwIjoxNzU2NjUzMTQ0fQ.ASdXy6gJExIa2CwROvCPxq0Jh3C4PpKvFktf-roMfwI&t=2024-08-31T15%3A12%3A24.509Z" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
                         <div className={linkStyle}>
                             <Link to='/technofi2024'>
                             TECHNOFI 2024

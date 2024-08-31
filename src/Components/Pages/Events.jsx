@@ -35,6 +35,22 @@ function Event(){
     return(
         <>
         <div className='w-full xl:flex flex-wrap grid md:grid-cols-2 grid-cols-1 justify-center items-center'>
+        <div className='h-fit xl:h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange xl:flex flex-row-reverse overflow-hidden cursor-pointer' onClick={() => navigate('/events/mech')}>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/EventsPage/img/7.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHNQYWdlL2ltZy83LmpwZyIsImlhdCI6MTcyNTExMTExMywiZXhwIjoxNzU2NjQ3MTEzfQ.DMVcdOtl8qPp1aeB-sQGZEhCw2EJk6u_F4OJKoj8e-A&t=2024-08-31T13%3A31%3A53.647Z" alt="" className='h-full'/>
+            <div className='flex justify-between items-center py-8 mx-8'>
+                <div className='h-full flex justify-center flex-col'>
+                    <div className='text-yellow-orange text-2xl font-bold'>Mech Mayhem</div>
+                    <div className='text-[#DFC9A7] text-lg font-base'>Build.Battle.Conquer</div>
+                </div>
+                <div className='text-text-white h-0 xl:h-full w-0 xl:w-3/5 flex items-center' style={{
+          backgroundImage: 'linear-gradient(121deg,#DFC9A7 0%, #FBB144  100%)',
+          WebkitBackgroundClip: 'text',
+          WebkitTextFillColor: 'transparent',
+        }}>
+                    Prepare for an epic showdown between robotic warriors! In this thrilling competition, skilled engineers and programmers will pit their creations against one another in a battle of wits and technology.
+                </div>
+            </div>
+        </div>
         <div className='h-fit xl:h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange xl:flex flex-row overflow-hidden cursor-pointer' onClick={() => navigate('/events/anatomy')}>
             <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/EventsPage/img/3.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHNQYWdlL2ltZy8zLmpwZyIsImlhdCI6MTcyNTA5MjMwMCwiZXhwIjoxNzU2NjI4MzAwfQ.I3zE_ENppDaubvMwYZ8AYscybdgq3mH_ZL2CZW8v_og&t=2024-08-31T08%3A18%3A20.500Z" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
@@ -83,22 +99,7 @@ function Event(){
                 </div>
             </div>
         </div>
-        <div className='h-fit xl:h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange xl:flex flex-row-reverse overflow-hidden cursor-pointer' onClick={() => navigate('/events/mech')}>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/EventsPage/img/7.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHNQYWdlL2ltZy83LmpwZyIsImlhdCI6MTcyNTExMTExMywiZXhwIjoxNzU2NjQ3MTEzfQ.DMVcdOtl8qPp1aeB-sQGZEhCw2EJk6u_F4OJKoj8e-A&t=2024-08-31T13%3A31%3A53.647Z" alt="" className='h-full'/>
-            <div className='flex justify-between items-center py-8 mx-8'>
-                <div className='h-full flex justify-center flex-col'>
-                    <div className='text-yellow-orange text-2xl font-bold'>Mech Mayhem</div>
-                    <div className='text-[#DFC9A7] text-lg font-base'>Build.Battle.Conquer</div>
-                </div>
-                <div className='text-text-white h-0 xl:h-full w-0 xl:w-3/5 flex items-center' style={{
-          backgroundImage: 'linear-gradient(121deg,#DFC9A7 0%, #FBB144  100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-        }}>
-                    Prepare for an epic showdown between robotic warriors! In this thrilling competition, skilled engineers and programmers will pit their creations against one another in a battle of wits and technology.
-                </div>
-            </div>
-        </div>
+        
         <div className='h-fit xl:h-52 w-5/6 border m-10 rounded-2xl border-yellow-orange xl:flex flex-row overflow-hidden cursor-pointer' onClick={() => navigate('/events/picto')}>
             <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/EventsPage/img/6.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHNQYWdlL2ltZy82LmpwZyIsImlhdCI6MTcyNTA5MjMzOSwiZXhwIjoxNzU2NjI4MzM5fQ.AIWa0wOBwLfMI-CzZr5lbPz5R64jdMn_sw4A7F4y76k&t=2024-08-31T08%3A19%3A00.175Z" alt="" className='h-full'/>
             <div className='flex justify-between items-center py-8 mx-8'>
