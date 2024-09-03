@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const core = ["Harshit Agarwal", "Jatin Mohnani", "Krishna Goyal" ]
 
-const team = ["Adeesh Garg","Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vitthal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Avanindra Singh", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
+const team = ["Adeesh Garg", "Ujjwal Singh", "Mayank Sharma", "Parth Bhatnagar", "Garvit Gupta", "Rachit Sadana",  "Krrish Verma", "Sidak Sachdeva", "Vitthal Singh", "Nityam Agarwal", "Abhinav Gupta", "Mohd. Junaid", "Avanindra Singh", "Shreyas Tiwari", "Arpit Bansal", "Prince Gupta", "Achintya Parashar"]
 
 function Hero(){
 
