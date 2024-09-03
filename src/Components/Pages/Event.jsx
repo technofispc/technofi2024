@@ -6,11 +6,11 @@ import { useEffect, useState } from 'react';
 
 const eventDetails = {
   anatomy : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/anatomy.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvYW5hdG9teS5qc29uIiwiaWF0IjoxNzI1MDc3ODEwLCJleHAiOjE3NTY2MTM4MTB9.EYgXBRSNfVG_7KbCdKc9UFpimdU7P8qEwP94OBi6_k0&t=2024-08-31T04%3A16%3A51.059Z",
-  ascent : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/ascent.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvYXNjZW50Lmpzb24iLCJpYXQiOjE3MjUwNzc4MzgsImV4cCI6MTc1NjYxMzgzOH0.oM8lgjt8tSqM_gPb-EF2g5ehDBmkHsPmvdpS_Ds4M-0&t=2024-08-31T04%3A17%3A18.493Z",
+  ascent : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/ascent.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvYXNjZW50Lmpzb24iLCJpYXQiOjE3MjUzNjYzODAsImV4cCI6MTc1NjkwMjM4MH0.lqhrWAyDvKKA6B4YU_p6QCn9gCTkkBtrhxL12qNX1oA&t=2024-09-03T12%3A26%3A19.801Z",
   byte : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/byte.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvYnl0ZS5qc29uIiwiaWF0IjoxNzI1MDc3Nzg5LCJleHAiOjE3NTY2MTM3ODl9.Dac_StL_A2CYb3LjFCzLbKccBuUxcUpKFm3hm13ddkw&t=2024-08-31T04%3A16%3A29.979Z",
   mech : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/mech.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvbWVjaC5qc29uIiwiaWF0IjoxNzI1MDc3ODY3LCJleHAiOjE3NTY2MTM4Njd9.UbkM2azumtc4vBlfCacom69WBrc4H_f2y1fXsQFmM9s&t=2024-08-31T04%3A17%3A47.404Z",
   picto : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/picto.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvcGljdG8uanNvbiIsImlhdCI6MTcyNTA3Nzg4MCwiZXhwIjoxNzU2NjEzODgwfQ.Vh_dGY6NimkxSnbyK79rPeeb2As9FMn7lXumGjy8ZRQ&t=2024-08-31T04%3A18%3A00.589Z",
-  pseudo : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/pseudo.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvcHNldWRvLmpzb24iLCJpYXQiOjE3MjUwNzc4OTYsImV4cCI6MTc1NjYxMzg5Nn0.kMDpUd7o_cXGfQ3zbHC75BtE6-rfASNpNp3NgZCRj-s&t=2024-08-31T04%3A18%3A16.453Z",
+  pseudo : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/pseudo.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvcHNldWRvLmpzb24iLCJpYXQiOjE3MjUzNjYzOTgsImV4cCI6MTc1NjkwMjM5OH0.XOOcTj0G9NnhlzjzgtoCHP9DBSdSHbjJtD5hZT_S0s8&t=2024-09-03T12%3A26%3A37.345Z",
   chaos : "https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Events/rock.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJFdmVudHMvcm9jay5qc29uIiwiaWF0IjoxNzI1MDc3OTEyLCJleHAiOjE3NTY2MTM5MTJ9.vv-E6ZzRRisfSPsgofTxmY_J3g29MCAxe-oclV1vyiA&t=2024-08-31T04%3A18%3A33.042Z"
 }
 
