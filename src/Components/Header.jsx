@@ -86,7 +86,7 @@ export default function Header() {
     </div>
     <div className={sideBarStyle}>
         <div className='flex flex-col w-full pt-20 gap-20 h-full'>
-                <img src=".https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/close.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Nsb3NlLnN2ZyIsImlhdCI6MTcyNTExNzE0NCwiZXhwIjoxNzU2NjUzMTQ0fQ.ASdXy6gJExIa2CwROvCPxq0Jh3C4PpKvFktf-roMfwI&t=2024-08-31T15%3A12%3A24.509Z" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
+                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/close.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Nsb3NlLnN2ZyIsImlhdCI6MTcyNTQyMjU1OCwiZXhwIjoxNzU2OTU4NTU4fQ.1txK2FQjbuAIZCh7gOQcqSUwUegU4fifKEVSbb1Cvqc&t=2024-09-04T04%3A02%3A38.031Z" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
                         <div className={linkStyle}>
                             <Link to='/technofi2024'>
                             TECHNOFI 2024
