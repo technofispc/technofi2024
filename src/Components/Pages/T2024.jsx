@@ -69,7 +69,9 @@ function Coordinators(){
 function Quote(){
   return(
     <div className='text-center font-[Inter] text-5xl md:text-6xl lg:text-8xl font-semibold leading-normal tracking-[1.44px] h-fit text-white my-20'>
+      <a href = "https://github.com/technofispc/Steganography" >
       "I BELIEVE WE DID"
+      </a>
     </div>
   )
 }
