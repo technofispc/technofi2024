@@ -59,7 +59,7 @@ of your mind.
                 <div className='flex items-start'>
                   <div className='flex flex-col justify-center items-start self-stretch w-fit pr-[10px]'>
                     <div className='flex h-full items-start w-[21px]'>
-                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTcyNTA4OTg3MiwiZXhwIjoxNzU2NjI1ODcyfQ.6HGqElMkd_GK-KzOsasslUc1XYUG1xRjiJK8VXMP91c&t=2024-08-31T07%3A37%3A52.586Z' alt='logo' className='w-[21px] h-[28px]' />
+                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTc1NzYxMTQwNiwiZXhwIjoxNzg5MTQ3NDA2fQ.EzO6SktF251ONKgOttRxPixbSz2JIh9Ak5CyIM5QU1c' alt='logo' className='w-[21px] h-[28px]' />
                     </div>
                   </div>
                   <div className='flex flex-col items-start self-stretch'>
@@ -92,7 +92,7 @@ next big idea.
                 <div className='flex items-start'>
                   <div className='flex flex-col justify-center items-start self-stretch w-fit pr-[10px]'>
                     <div className='flex h-full items-start w-[21px]'>
-                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTcyNTA4OTg3MiwiZXhwIjoxNzU2NjI1ODcyfQ.6HGqElMkd_GK-KzOsasslUc1XYUG1xRjiJK8VXMP91c&t=2024-08-31T07%3A37%3A52.586Z' alt='logo' className='w-[21px] h-[28px]' />
+                      <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/arrow.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL2Fycm93LnBuZyIsImlhdCI6MTc1NzYxMTQwNiwiZXhwIjoxNzg5MTQ3NDA2fQ.EzO6SktF251ONKgOttRxPixbSz2JIh9Ak5CyIM5QU1c' alt='logo' className='w-[21px] h-[28px]' />
                     </div>
                   </div>
                   <div className='flex flex-col items-start self-stretch'>
