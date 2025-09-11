@@ -48,7 +48,7 @@ export default function Header() {
             <div className='flex justify-between items-center w-screen h-fit'>
                 <Link to='/'>
                 <div className='flex items-center w-fit'>
-                <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/logo.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2xvZ28uc3ZnIiwiaWF0IjoxNzI1MDg5NjQxLCJleHAiOjE3NTY2MjU2NDF9.iR-jY5FbbksQpPcueGaxrMVfkM7lF5dSNT_1JBQ-vjM&t=2024-08-31T07%3A34%3A01.154Z' alt='logo' className='h-4 flex-1 items-center pr-2' />
+                <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/logo.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL2xvZ28uc3ZnIiwiaWF0IjoxNzU3NjEwNjgwLCJleHAiOjE3ODkxNDY2ODB9.GBuJPMbP1gGJABQLxwRLGguh2V7X90JBCNuOwdZrFUs' alt='logo' className='h-4 flex-1 items-center pr-2' />
                 <div className='flex flex-col items-center justify-center text-center font-bold text-lg text-white w-fit whitespace-nowrap'>
                     Technofi
                 </div>
@@ -81,12 +81,12 @@ export default function Header() {
                             </a>
                         </div>
                 </div>
-                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/menu.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL21lbnUuc3ZnIiwiaWF0IjoxNzI1MTE3MTY3LCJleHAiOjE3NTY2NTMxNjd9.pNY4x7Bco2nM5_i9vOw2sgcRkUH08-x3vYHtOzTkaQY&t=2024-08-31T15%3A12%3A46.802Z" className='absolute right-10 sm:right-20 visible xl:invisible' onClick={handleClick} />
+                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/menu.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL21lbnUuc3ZnIiwiaWF0IjoxNzU3NjEwOTkxLCJleHAiOjE3ODkxNDY5OTF9.KB63q4aigwzTtxoDm1gX96dOnDLrMRNV4Y2ejDinNN8" className='absolute right-10 sm:right-20 visible xl:invisible' onClick={handleClick} />
             </div>
     </div>
     <div className={sideBarStyle}>
         <div className='flex flex-col w-full pt-20 gap-20 h-full'>
-                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/close.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2Nsb3NlLnN2ZyIsImlhdCI6MTcyNTQyMjU1OCwiZXhwIjoxNzU2OTU4NTU4fQ.1txK2FQjbuAIZCh7gOQcqSUwUegU4fifKEVSbb1Cvqc&t=2024-09-04T04%3A02%3A38.031Z" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
+                <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/close.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL2Nsb3NlLnN2ZyIsImlhdCI6MTc1NzYxMDY5OSwiZXhwIjoxNzg5MTQ2Njk5fQ.6O_KtBr360WPWjXbCYslQDVUQLdQrHZbpb8XRuaHqEI" className='absolute right-10 sm:right-20 top-7 w-7' onClick={handleClick} />
                         <div className={linkStyle}>
                             <Link to='/technofi2024'>
                             TECHNOFI 2024

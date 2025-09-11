@@ -15,7 +15,7 @@ function Hero(){
   return(
     <div className='flex w-full flex-col items-start bg-transparent h-fit mt-20 md:mt-10 px-10'>
     <div className='flex w-full flex-col items-center justify-center'>
-    <video src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/hero.mp4?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL2hlcm8ubXA0IiwiaWF0IjoxNzI1MDg5NzUyLCJleHAiOjE3NTY2MjU3NTJ9.DAbukshNLzmaDCaJu49F_RFXz253P7JVT_Vxja_w0Qg&t=2024-08-31T07%3A35%3A52.760Z' loop autoPlay muted className='w-full h-auto'>
+    <video src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/hero.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL2hlcm8ubXA0IiwiaWF0IjoxNzU3NjEwMTM4LCJleHAiOjE3ODkxNDYxMzh9.vohHFb1HjrstS8xJiMXEfXGm6C2nrH3yfeZOb45IbU4'>
           Your browser does not support the video tag.
         </video>
     </div>
@@ -84,7 +84,7 @@ next big idea.
             </div>
           </div>
           <div className='w-0 lg:w-1/3'>
-            <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/robot.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL3JvYm90LnBuZyIsImlhdCI6MTcyNTA4OTgxMSwiZXhwIjoxNzU2NjI1ODExfQ.VKm0EPOas21OCVHr2IxqKgyX1mmQjc1mDqE4nQo8S2s&t=2024-08-31T07%3A36%3A52.146Z' alt='logo' className=''/>
+            <img src='https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/robot.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL3JvYm90LnBuZyIsImlhdCI6MTc1NzYxMDk4MywiZXhwIjoxNzg5MTQ2OTgzfQ.swEmiqlNo4NIFxDoO6RWHogMKNtx3Wh8L__-HdgXsVI' alt='logo' className=''/>
           </div>
           <div className='w-0 lg:w-1/3 invisible lg:visible h-0 lg:h-auto'>
           <div className='flex py-48 flex-col items-start self-stretch'>
@@ -129,22 +129,22 @@ function Patrons(){
         </div>
         <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 mt-10'>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/11.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTEuanBnIiwiaWF0IjoxNzI1MDg5OTQzLCJleHAiOjE3NTY2MjU5NDN9.S8aFwHTU68sYlK_LKciGXqrVOI68HgNqw36eNugRoiw&t=2024-08-31T07%3A39%3A03.652Z" alt="Patron" className="max-w-72"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/11.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTEuanBnIiwiaWF0IjoxNzU3NjEwMTU3LCJleHAiOjE3ODkxNDYxNTd9.A1IqZeeUH6kbnZu9aJt3jm88iuubgYExaTUVSsGtmQ4" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/12.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTIuanBnIiwiaWF0IjoxNzI1MDg5OTU1LCJleHAiOjE3NTY2MjU5NTV9.tnFszx1iOWuAal8n_AVLwSCVWrbuYjvzo9sVB-yrZEA&t=2024-08-31T07%3A39%3A15.736Z" alt="Patron" className="max-w-72"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/12.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTIuanBnIiwiaWF0IjoxNzU3NjEwMTY1LCJleHAiOjE3ODkxNDYxNjV9.9zvZjQgE9fHPaSrhPrXG4csNmg_MJ-YVYug_ZQkrnoY" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/13.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTMuanBnIiwiaWF0IjoxNzI1MDg5OTY0LCJleHAiOjE3NTY2MjU5NjR9.i5fjZ_qhoe0x6kyjNC5wlZ-QdobXupYYEdEHreIaGnE&t=2024-08-31T07%3A39%3A25.281Z" alt="Patron" className="max-w-72"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/13.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTMuanBnIiwiaWF0IjoxNzU3NjEwMTc1LCJleHAiOjE3ODkxNDYxNzV9.zTUmjlhWqtba-VZbaahVuVq4y_wonuqTqpwkaLKDPxU" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/14.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTQuanBnIiwiaWF0IjoxNzI1MDg5OTc1LCJleHAiOjE3NTY2MjU5NzV9.V-jw0UOOMt-9nOEIo4-i9Oly49sAsDTraSFYmCKdFtY&t=2024-08-31T07%3A39%3A36.697Z" alt="Patron" className="max-w-40"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/14.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTQuanBnIiwiaWF0IjoxNzU3NjEwMTg0LCJleHAiOjE3ODkxNDYxODR9.6qkor11RCVLlK2wQJhw7NI_gflemIBYMw6PHZ0d7IGE" alt="Patron" className="max-w-40"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/15.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTUuanBnIiwiaWF0IjoxNzI1MDg5OTg0LCJleHAiOjE3NTY2MjU5ODR9.EYMed-2wWJJk-0a-A8wPj05--3TCbXEOJxDlp-82hUs&t=2024-08-31T07%3A39%3A44.786Z" alt="Patron" className="max-w-72"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/15.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTUuanBnIiwiaWF0IjoxNzU3NjEwMTkyLCJleHAiOjE3ODkxNDYxOTJ9.4hJvLu0IlHFrdolp7IcmstyXjpzZi6Bp3Wc27jXzNzw" alt="Patron" className="max-w-72"/>
           </div>
           <div className='flex justify-center items-center w-full'>
-            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/16.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTYuanBnIiwiaWF0IjoxNzI1MDg5OTk0LCJleHAiOjE3NTY2MjU5OTR9.t1xaYfn9-YB-ge2f2RqjXxXlzpptq3-GQzWw1vJrrh0&t=2024-08-31T07%3A39%3A54.122Z" alt="Patron" className="max-w-72"/>
+            <img src="https://sivpthcvunwbhqmkmhee.supabase.co/storage/v1/object/sign/Home/Patrons/16.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mNDExMzFlMC1lYmQ4LTQ5NjMtOTIzOC1hOGE2ZGY3MTc2OTAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJIb21lL1BhdHJvbnMvMTYuanBnIiwiaWF0IjoxNzU3NjEwMTk5LCJleHAiOjE3ODkxNDYxOTl9.uypz1UHfvWYrcTuuUOpiyb4i7Ud9JOPR0TaY7NPSmFA" alt="Patron" className="max-w-72"/>
           </div>
         </div>
     </div>
